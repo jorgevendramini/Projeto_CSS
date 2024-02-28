@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Page Title</title>
+	<!-- Additional head elements (stylesheets, scripts, etc.) go here -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="center">
+		<button onclick="addSquare()"> + </button>
+		<button onclick="removeSquare()"> - </button>
+		<!--<button> < </button>
+	<button> > </button>
+	<button> Save </button>
+	<button> Load </button>
+	<button> Reset </button>-->
+	</div>
+
+	<!-- Content of your web page goes here -->
+	<div class="header">
+
+		<div class="container">
+			<div class="square square-1">1</div>
+			<div class="container-1">
+				<p class="square-1 hex">HEX</p>
+				<p class="square-1 rgb">RGB</p>
+				<p class="square-1 hsl">HSL</p>
+			</div>
+			<div class="container-1">
+				<button onclick="changeColor('square-1')">Randomize me!</button>
+				<button>test1</button>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- Additional scripts or content near the end of the body for performance -->
+	<script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+
+1 - Color Palette Display:
+
+Add a section to display the current color palette used for each square. This could be a list or visual representation of the colors.
+
+2 - Color Information: - DONE
+
+Display the hex code or RGB values of the current color when a square is clicked. This could be shown dynamically on the page.
+
+3 - Reset Button:
+
+Implement a button that resets all squares to their initial state or a default color.
+
+4 - Undo/Redo Functionality:
+
+Allow users to undo and redo color changes, creating a simple history mechanism.
+
+5 - Customizable Grid Size: - DONE
+
+Allow users to dynamically change the size of the grid, adding or removing squares as needed.
+
+6 - Save/Load Color Configurations:
+
+Implement functionality to save and load different color configurations. Users could create, save, and load different patterns of colored squares.
+
+7 - Animations:
+
+Add animations to the color changes, making the transition smoother and more visually appealing.
+
+8 - Interactive Color Picker:
+
+Integrate a color picker tool that allows users to select a specific color for each square.
+
+9 - Randomize All Colors:
+
+Add a button to randomize the colors of all squares at once.
+
+10 - Timer-based Color Changes:
+
+Implement a timer that automatically changes the colors of the squares at regular intervals.
+
+-->
